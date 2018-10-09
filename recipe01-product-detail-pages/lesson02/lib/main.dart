@@ -3,28 +3,28 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(MaterialApp(
       home: Scaffold(
-          appBar: AppBar(title: Text("Hello, World!")),
+          appBar: AppBar(title: Text("Hello NUEWW@ING!")),
           body: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Colors.yellow,
                 ),
-                child: Text("One"),
+                child: Text("Welcome NUEWW"),
               ),
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.green,
+                  color: Colors.orange,
                 ),
-                child: Text("Two"),
+                child: Text("@ING"),
               ),
               Container(
                 decoration: BoxDecoration(
                   color: Colors.blue,
                 ),
-                child: Text("Three"),
+                child: Text("in Nürnberg"),
               ),
             ],
           ))));
